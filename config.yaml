@@ -1,0 +1,12 @@
+---
+name: icloudpd
+version: "1.0.0"
+slug: icloudpd
+description: Custom app for icloud photo sync
+arch:
+  - amd64
+url: https://github.com/Iasant/docker-icloudpd
+startup: application
+boot: auto
+map:
+  - share:rw
